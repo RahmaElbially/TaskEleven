@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+form{
+    width: 60%;
+    height: 700px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-top: 3%;
+    border: 2px solid #054875;
+    border-radius: 25px;
+    position: relative;
+    position: relative;
+    padding-left: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px #0f74f8;
+}
+label{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Redressed', cursive;
+    color: #0a4c77;
+    padding-left: 10px;
+    margin-right: 10px;
+    text-shadow: 3px 3px 5px #0857bd;
+}
+input[type=text] , input[type=email] , input[type=password]{
+    display: inline-block;
+    width: 70%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #0857bd;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#Password{
+    width: 67%;
+}
+#E-Mail{
+    width: 71%;
+    margin-left: 5px;
+}
+#FirstName , #LastName{
+    width: 66%;
+}
+textarea{
+    margin-left: 25px;
+    border: 1px solid #0857bd;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-top: 20px;
+    outline: none;
+}
+input[type=submit]{
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid #0857bd;
+    cursor: pointer;
+    color: #0a4c77;
+    font-size: 25px;
+    font-family: 'Redressed', cursive;
+}
+input[type=submit]:hover{
+    background-color: #aabfda;
+    color: #FFF;
+    opacity: 0.8;
+    font-size: 20px;
+}
